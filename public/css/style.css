@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: darkcyan;
+}
+
+.container , .container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    padding: 30px;
+    display: block;
+    width: 400px;
+}
+.container form{
+    margin-top: -20px;
+}
+.container .text{
+    text-align: center;
+    color: cadetblue;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.container form .data
+{
+    margin: 40px 0;
+    height: 45px;
+    width: 100%;
+}
+form .data label{
+ font-size: 18px;
+}
+
+form .data input{
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+    border:1px solid silver;
+}
+
+form .data input:focus{
+    border-color:cornflowerblue;
+    border-bottom-width: 2px;
+}
+
+form .forget-pwd{
+    margin-top: -10px;
+}
+
+form .forget-pwd a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+form .forget-pwd a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+form .btn{
+    margin-top: 10px ;
+    width: 100%;
+    height: 30px;
+}
+
+form .btn button{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: cadetblue;
+    border: none;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+form .signup-now{
+    text-align: center;
+    margin-top: 10px;
+}
+
+form .signup-now a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+form .signup-now a:hover{
+    text-decoration: underline;
+}
+
+/*Home page style*/
+
+.container-fluid{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*nav bar style*/
+
+nav{
+    width: 100%;
+    height: 45px;
+    background: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10px;
+    align-items: center;
+}
+
+nav .nav-bar-head{
+    color: cadetblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav .nav-bar-item a{
+    margin: 0 5px;
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 18px;
+}
+
+nav .nav-bar-item a:hover{
+    text-decoration: underline;
+}
+
+.container-fluid img{
+    width: 200px;
+}
+
+.error{
+    color: red;
+}
+.success{
+    color:green;
+}
+
